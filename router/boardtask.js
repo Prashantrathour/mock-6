@@ -46,7 +46,7 @@ boardRouter.get('/', async (req, res) => {
 
     res.json(formattedResponse);
   } catch (error) {
-    res.status(500).json({ error: 'Failed to fetch boards.' });
+    res.status(500).json({ error: 'Failed to fetch boards.........' });
   }
 });
 
